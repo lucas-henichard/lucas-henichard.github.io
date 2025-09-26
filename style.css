@@ -1,0 +1,101 @@
+*
+{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li
+{
+    list-style-type: none;
+    margin-inline-start: 10px;
+    font-size: 18px;
+}
+
+h1 
+{
+    font-size: 40px;
+}
+
+h2
+{
+    font-size: 35px;
+}
+
+/* Positionnement de la page */
+#wrapper
+{
+    min-width: 1000px;
+    width: 45%;
+    /*max-width: 1800px;*/
+    border: 2px solid #999999; 
+    margin: 0 auto; 
+}
+
+.main
+{
+    padding-left: 50px;
+    min-height: 250px;
+    width: 450px;
+    float: top;
+}
+
+.name, .picture
+{
+    margin-top: -230px;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    overflow: hidden;
+}
+
+
+/* Traits de style */
+.traits
+{
+    width: 0px;
+    height: 100px;
+    border: 1px solid #999999;
+    margin-left: 50px;
+    position: relative;
+
+}
+
+#topSeg
+{
+    margin-top: 0;
+}
+
+#nameCont
+{
+    top: 175px;
+}
+
+#formComp
+{
+    height: 150px;
+    top: 530px;
+}
+
+/* Couleurs */
+.back
+{
+    background-color: #d5d5d5;
+}
+
+.front
+{
+    background-color: white;
+}
+
+/* Image */
+img
+{
+    clip-path: circle();
+    border-radius: 50%;
+}
